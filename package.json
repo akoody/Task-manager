@@ -1,0 +1,46 @@
+{
+  "name": "taskmangment",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon server.ts",
+    "build": "tsc",
+    "start:backend": "npm run dev",
+    "start:frontend": "cd task-management && npm start",
+    "start:all": "concurrently \"npm run start:backend\" \"npm run start:frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/react-router-dom": "^5.3.3",
+    "autoprefixer": "^10.4.20",
+    "axios": "^1.7.9",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.1",
+    "postcss": "^8.5.3",
+    "react-router-dom": "^7.2.0",
+    "tailwindcss": "^4.0.8"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.0",
+    "@types/joi": "^17.2.3",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.13.5",
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
