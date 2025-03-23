@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b9eab911-1bb6-45da-90cc-e230c8e34941)# Task Manager App
+# Task Manager App
 
 A simple Task Manager application built with **TypeScript**, **React**, and **MongoDB**. This app allows users to register, log in, and manage their tasks efficiently.
 
